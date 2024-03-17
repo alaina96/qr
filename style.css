@@ -1,0 +1,38 @@
+body {
+  background-color: #d6e1f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: outfit;
+  font-size: 25px;
+  padding: 5px;
+}
+
+h2 {
+  font-family: outfit;
+  font-size: 15px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0px 15px 15px 15px;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 300px;
+  border-radius: 5%;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code {
+  margin: 0 auto;
+  display: block;
+  max-width: 300px;
+  border-radius: 5%;
+}
